@@ -1,0 +1,12 @@
+{
+	"javascripts": {
+		"javascripts/common.min.js": [
+			"javascripts/common.js"
+		]
+	},
+	"stylesheets": {
+		"stylesheets/common.min.css": [
+			"stylesheets/common.css"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Bruno Lesieur Resumé - Front-end and Node.js Web Developer",
+	"description": "Bruno Lesieur Resumé about his skills and his experiences about web.",
+	"javascriptDisable": "Javascript is disabled. The « experience » part will be readable as soon as possible without JavaScript.",
+	"header": {
+		"title": "JavaScript Web Developer Front-end and Node.js",
+		"cv": "Resumé",
+		"image": "Bruno Lesieur Portrait",
+		"information": "26 years old, Master's Degree<br />Driving Licence, Swiss Cross-border Permit",
+		"extended": "Internet version : <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
+		"standard": "<a href=\"upload/cv_bruno-lesieur_job-search-developer-front-end-and-node.js.pdf\" title=\"CV - Bruno Lesieur - Job Search Developer Front-end and Node.js.pdf\">Download Resumé in PDF format</a>",
+		"vcard": {
+			"phone": "<div><span>Home :</span> +33 4 50 62 <ins class=\"add9\"></ins></div>",
+			"mobile": "<div><span>Mob. :</span> +33 6 76 27 <ins class=\"add6\"></ins></div>"
+		}
+	},
+	"skills": {
+ 		"title": "Skills",
+		"detail": "<a href=\"http://www.haeresis.fr/en-us/#/about-my-skills\" title=\"Detailed list of my skills\">More info</a><span class=\"extended\">: http://www.haeresis.fr/en-us/#/about-my-skills</span>",
+ 		"advancedSkills": {
+ 			"title": "Advanced Skills"
+		}
+	},
+	"essential": {
+		"title": "Overview",
+		"jobs": {
+			"title": "Previous Jobs",
+			"items": [
+				"<span class=\"eye-catching\">Front-end Dev. / Back-end Node.js</span><br/><span class=\"at\">at</span> Knowledge Expert",
+				"<span class=\"eye-catching\">Web developer</span><br/><span class=\"at\">at</span> MediaWelcome",
+				"<span class=\"eye-catching\">Web developer / Junior Consultant</span><br/><span class=\"at\">at</span> B-Fine Consulting"
+			]
+		},
+		"degrees": {
+			"title": "Degrees (Master's Degree)"
+		}
+	}
+}

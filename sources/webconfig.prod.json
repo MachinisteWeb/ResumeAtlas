@@ -1,0 +1,20 @@
+{
+	"cache": true,
+	"httpHostname": "bruno.lesieur.name",
+    "serverlessRelativePath": "../website/",
+    "variation": "common.json",
+	"assetsCopy": true,
+	"output": true,
+	"languageCode": "fr-fr",
+  	"bundles": "bundles.json",
+	"routes": {
+		"/": {
+			"view": "index.htm"
+		},
+		"/en/": {
+			"view": "index.htm",
+			"languageCode": "en"
+		}
+	},
+	"_minified": ".min"
+}

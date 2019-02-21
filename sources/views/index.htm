@@ -1,0 +1,371 @@
+<? include partials/master-head.htm ?>
+<? include partials/header.htm ?>
+
+		<div id="body" class="body">
+			<section class="skills">
+				<div>
+					<h2 class="section"><?- common.skills.title ?></h2>
+				</div>
+				<table>
+					<thead>
+						<tr>
+							<th class="task">
+								<?- common.skills.expertise.title ?>
+							</th>
+							<th class="detail">
+								<? for(var i = 0; i < common.skills.expertise.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.expertise.items[i] ?></span>
+								<? } ?>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>
+								<?- common.skills.advancedSkills.title ?>
+							</th>
+							<td>
+								<? for(var i = 0; i < common.skills.advancedSkills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.advancedSkills.items[i] ?></span>
+								<? } ?>
+							</td>
+						</tr>
+						<tr>
+							<th>
+								<?- common.skills.title ?>
+							</th>
+							<td>
+								<? for(var i = 0; i < common.skills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.items[i] ?></span>
+								<? } ?>
+							</td>
+						</tr>
+					</tbody>
+					<tfoot class="standard">
+						<tr>
+							<th class="task"></th>
+							<th class="detail">
+								<?- common.skills.detail ?>
+							</th>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+			<aside class="essential">
+				<h3><?- common.essential.title ?></h3>
+				<h4><?- common.essential.jobs.title ?></h4>
+				<ul>
+					<? for(var i = 0; i < common.essential.jobs.items.length; i++) { ?>
+					<li><?- common.essential.jobs.items[i] ?></li>
+					<? } ?>
+				</ul>
+				<h4><?- common.essential.degrees.title ?></h4>
+				<ul>
+					<? for(var i = 0; i < common.essential.degrees.items.length; i++) { ?>
+					<li><?- common.essential.degrees.items[i] ?></li>
+					<? } ?>
+				</ul>
+			</aside>
+			<section id="experiences" class="experiences pro">
+			<div>
+				<h2 class="section">Expériences</h2>
+			</div>
+			<div>
+				<div class="tab-pro">
+					Professionelles
+				</div>
+				<div class="tab-per">
+					Personnelles
+				</div>
+			</div>
+			<div id="orchardid" class="item orchardid">
+				<time datetime="2019-01-01" class="first">2019</time>
+				<time datetime="2018-01-01" class="second">2018</time>
+				<time datetime="2017-01-01" class="third">2017</time>
+				<article>
+					<h4><a href="#source-job">Dév. Fullstack JavaScript / Directeur Technique</a></h4>
+					<h5>Orchard ID <span class="locality">35000 Rennes, France</span></h5>
+					<div>
+						2 ans<br>et +
+					</div>
+					<p>
+						Développement et maintenance du projet communautaire <a href="http://www.impaakt.com/" title="Measuring the real impact of businesses. Together!">Impaakt</a> : application web pour noter les sociétés sur la participation aux 17 objectifs de développement durable.
+					</p>
+					<p>
+						Mise en place d'un workflow full-stack <span class="highlighting">JavaScript</span> / <span class="highlighting">Node.js</span> du développement à la production pour nos sites web.
+					</p>
+					<ul>
+						<li>Framework MVVM Front-end <span class="highlighting">Vue</span> pour UI/UX.</li>
+						<li>Framework SSR Back-end <span class="highlighting">Nuxt</span> pour App/API RESTfull.</li>
+						<li>Framework MVC2 Back-end <span class="highlighting">NodeAtlas</span> pour Site/API web.</li>
+					</ul>
+					<p>
+						Refonte à partir d'outils legacy comme <span class="highlighting">AngularJS</span>, <span class="highlighting">jQuery</span> ou veille sur des technologies solidement implentés comme <span class="highlighting">PHP</span> ou <span class="highlighting">MySQL</span>.
+					</p>
+				</article>
+			</div>
+			<div id="knowledgeexpert" class="item knowledgeexpert">
+				<time datetime="2016-01-01" class="first">2016</time>
+				<time datetime="2015-01-01" class="second">2015</time>
+				<time datetime="2014-01-01" class="third">2014</time>
+				<article>
+				<h4><a href="#source-job">Intégrateur web / Développeur Node.js</a></h4>
+				<h5>Knowledge Expert <span class="locality">CH-1227 Carouge (GE), Suisse</span></h5>
+				<div>
+					2 an<br/>8 mois
+				</div>
+				<h6>En charge :</h6>
+				<p>
+					Création <span class="highlighting">HTML5</span>/<span class="highlighting">CSS3</span> basé sur Wireframes, Styleguides ou PSD.<br />
+					Création d'UI avec <span class="highlighting">Vanilla JS</span>, <span class="highlighting">jQuery</span> ou <span class="highlighting">AngularJS</span>, <br />
+					Jeux Web 2D avec <span class="highlighting">Canvas</span> et <span class="highlighting">Matter.js</span>.<br />
+					Développement <span class="highlighting">Node.js</span> d'outils de productivité web.<br />
+					Veille et documentation des techniques <span class="highlighting">Front-end</span> en <span class="highlighting">Markdown</span>.<br />
+					Recommandations et Implémentation <span class="highlighting">SEO</span>, <span class="highlighting">W3C</span> et <span class="highlighting">ECMAScript</span>.
+				</p>
+				<h6>En support :</h6>
+				<p>
+					Habillage Front-end avec <span class="highlighting">Aurelia.io</span> en <span class="highlighting">ES6</span>. <br />
+					Habillage Front-end avec <span class="highlighting">ASP MVC5 Razor</span> et <span class="highlighting">Bootstrap</span>. <br />
+					Développements <span class="highlighting">PHP</span> d'<span class="highlighting">Apps Facebook</span> avec <span class="highlighting">CodeIgniter</span>.<br />
+					Gestion des outils de <span class="highlighting">Télétravail</span> et de <span class="highlighting">Planning</span>.
+				</p>
+				</article>
+			</div>
+			<div id="mediawelcome" class="item mediawelcome">
+				<time datetime="2013-01-01" class="first">2013</time>
+				<time datetime="2012-01-01" class="second">2012</time>
+				<article>
+				<h4><a href="#source-job">Intégrateur / Développeur web</a></h4>
+				<h5>MediaWelcome <span class="locality">74000 Annecy, France</span></h5>
+				<div>
+					1 an<br/>4 mois
+				</div>
+				<p>
+					<span class="highlighting">Référent technique</span> sur Architecture "Web 2.0" Client et Server-Side.
+				</p>
+				<p>
+					 Développement Plugin <span class="highlighting">jQuery</span> pour interfaces enrichies.<br/> Développement <span class="highlighting">Cross-Domain</span> Client-Side avec Cookie.<br/> Mise à niveau <span class="highlighting">HTML5</span> et <span class="highlighting">CSS3</span> de l'équipe.<br/> Migration solution web ASP .NET / C# 2.0 vers 4.0.<br/> Développements web <span class="highlighting">ASP .NET / C# 4.0</span> et <span class="highlighting">Linq</span>.
+				</p>
+				<p>
+					 Intégration et charte <span class="highlighting">Drupal</span>.<br/> Maintenance et évolution de la documentation <span class="highlighting">MediaWiki</span>.
+				</p>
+				</article>
+			</div>
+			<div id="bfine" class="item bfine">
+				<ins>Alternance</ins><time datetime="2011-01-01" class="first">2011</time><time datetime="2010-01-01" class="second">2010</time><article>
+				<h4><a href="#source-job">Développeur web / Consultant Junior</a></h4>
+				<h5>B-Fine Consulting <span class="locality">95310 Sain-Ouen l'Aumône, France</span></h5>
+				<div>
+					2 ans
+				</div>
+				<p>
+					<span class="highlighting">Développeur de sites web</span> et d'applications satellites à l'ERP M3 (Movex).
+				</p>
+				<p>
+					 Développements web <span class="highlighting">ASP .NET / C# 3.5</span>.<br/> Développements application WinForm avec C#.
+				</p>
+				<p>
+					 Maintenance et évolution du site entreprise sous <span class="highlighting">Joomla!</span>.<br/> Maintenance et évolution du blog entreprise sous <span class="highlighting">WordPress</span>.
+				</p>
+				</article>
+			</div>
+			<div id="infovive" class="item infovive">
+				<time datetime="2009-01-01" class="first">2009</time><ins>Alternance</ins><article>
+				<h4><a href="#source-job">Développeur web / Chef de projet Junior</a></h4>
+				<h5>Infovive <span class="locality">95490 Vauréal, France</span></h5>
+				<div>
+					1 an
+				</div>
+				<p>
+					<span class="highlighting">Développeur et intégrateur</span> d'applications lourdes et web de GED (Gestion Electronique de Document).
+				</p>
+				<p>
+					 Développements web Intranet <span class="highlighting">ASP .NET / C# 2.0</span>.<br/> Intégration et développement MOSS 2007.
+				</p>
+				</article>
+			</div>
+			<div id="itin" class="item2 itin">
+				<time datetime="2011-01-01" class="first">2011</time><time datetime="2010-01-01" class="second">2010</time><time datetime="2009-01-01" class="third">2009</time><ins>Alternance</ins><article>
+				<h4><a href="#source-school">Master Pro M2I (Manager en Ingénierie Informatique)</a></h4>
+				<h5>ITIN - ESCIA <span class="locality">95891 Cergy-Pontoise, France</span></h5>
+				<div>
+					3 ans
+				</div>
+				<h6>M2</h6>
+				<dl>
+					<dt></dt>
+					<dd><span class="highlighting">Ingénierie Jeux Vidéos.</span></dd>
+					<dt>Projet :</dt>
+					<dd>Développement web mobile <span class="highlighting">PHP 5.3 / MySQL</span> intégré dans une application <span class="highlighting">Android</span>, application hybride.</dd>
+					<dt>Mémoire :</dt>
+					<dd>Mémoire de recherche sur la traçabilité et la sécurité des informations personnelles avec la RFID.</dd>
+				</dl>
+				<h6>M1</h6>
+				<dl>
+					<dt></dt>
+					<dd><span class="highlighting">Ingénierie Réalité Augmentée.</span></dd>
+					<dt>Projet :</dt>
+					<dd>Modélisation 3D et texture <span class="highlighting">Photoshop</span> du théâtre de la Roche-Guyon avec Virtools et <span class="highlighting">embarqué web</span>.</dd>
+				</dl>
+				<h6>L3</h6>
+				<dl>
+					<dt></dt>
+					<dd><span class="highlighting">Gestion de Projet.</span></dd>
+					<dt>Projet :</dt>
+					<dd>Développement web ASP .NET / C# 3.0 partageant une BDD <span class="highlighting">MySql</span> avec un Forum <span class="highlighting">PhpBB</span> intégré.</dd>
+					<dt>Etude :</dt>
+					<dd>Etudes sur les Réseaux de neurones.</dd>
+				</dl>
+				</article>
+			</div>
+			<div id="iut" class="item2 iut">
+				<time datetime="2008-06-01" class="first">2008</time><time datetime="2007-06-01" class="second">2007</time><article>
+				<h4><a href="#source-school">DUT R&amp;T (Réseaux et Télécoms)</a></h4>
+				<h5>Université de Savoie <span class="locality">74940 Annecy-le-Vieux, France</span></h5>
+				<div>
+					2 ans
+				</div>
+				<h6>D2</h6>
+				<dl>
+					<dt></dt>
+					<dd><span class="highlighting">Programmation Orientée Objet</span>.</dd>
+					<dt>Projet :</dt>
+					<dd>Développement d'un intranet web <span class="highlighting">PHP / MySQL</span> de gestion d'absences et de retards.</dd>
+					<dt>Stage :</dt>
+					<dd>MediaWelcome : Administration réseau (Audit) et développement web ASP .NET / C# d'un site communautaire à propos des voyages.</dd>
+				</dl>
+				<h6>D1</h6>
+				<dl>
+					<dt></dt>
+					<dd><span class="highlighting">Architectures des réseaux et protocole TCP/IP</span>.</dd>
+					<dt>Projet :</dt>
+					<dd>Développement d'un CMS web original <span class="highlighting">PHP / MySQL</span> pour une école de danse.</dd>
+				</dl>
+				</article>
+			</div>
+			<div id="bac" class="item2 bac">
+				<time datetime="2006-06-01" class="first">2006</time><article>
+				<h4><a href="#source-school">Bac Scientifique, Option SVT</a></h4>
+				<h5>Lycée Paul Langevin <span class="locality">60000 Beauvais, France</span></h5>
+				<div>
+					3 ans
+				</div>
+				</article>
+			</div>
+			<div id="post" class="item4 post">
+				<time datetime="2016-01-01" class="first">2016</time>
+				<article>
+					<h4>Post-études et Projets</h4>
+					<h6>Zététique</h6>
+					<p>
+						Étude de la pensée critique et de la méthode scientifique avec l'outil <a href="https://www.lesieur.name/zetetique/" title="Zététique">Zététique</a> et exercice quotidien de celui-ci avec le projet <a href="https://www.coup-critique.com/" title="Pensée critique pour le grand publique">Coup-Critique.com</a>.
+					</p>
+					<h6>Entreprise</h6>
+					<p>
+						Co-création de la <a href="https://blog.lesieur.name/" title="Quelques #ID et beaucoup de .CLASS">société libérée Orchard ID</a> et mise en place d'une philosophie de partage et d'égalité avec un pilotage d'entreprise basé sur l'envie et le bien être de ses salariés plutôt que sur des objectifs fixés par une direction.
+					</p>
+					<h6>Rédaction</h6>
+					<p>
+						Publication de billets sur <a href="https://blog.lesieur.name/" title="Quelques #ID et beaucoup de .CLASS">blog perso</a> ou sur d'<a href="https://blog.hellocomet.co/why-i-chose-to-replace-jquery-with-vuejs/" title="Bruno Lesieur sur comet">autres plateformes</a> comme <a href="https://bruno-lesieur.developpez.com/" title="Bruno Lesieur sur Developpez.com">Developpez.com</a>. Traductions de billets sur <a href="https://medium.com/@OrchardID" title="Bruno Lesieur sur Medium">Medium</a>. Veille via réseaux sociaux.
+					</p>
+					<h6>Vue</h6>
+					<p>
+						Création et gestion de l'équipe de traduction officiel française de <a href="https://blog.lesieur.name/" title="Quelques #ID et beaucoup de .CLASS">Vue sur Github</a>. Traductions de diverses pages de la documentation.
+					</p>
+					<h6>Vanilla JS</h6>
+					<p>
+						Documentation complète et Benchmark de <a href="https://blog.lesieur.name/vanilla-js-france/" title="Vanilla JS - Documentation en français">Vanilla JS</a> comparé à celle de <span class="highlighting">jQuery</span> pour développer en JavaScript natif.
+					</p>
+					<h6>Node.js</h6>
+					<p>
+						Création de <a href="http://node-atlas.js.org/" title="NodeAtlas vous permet de créer et maintenir des Assets HTML ou sites multilingues simplement en Node.js">NodeAtlas</a>, un moteur pour architecture <span class="highlighting">MVC2</span> pour assets html, site web ou application web temps réel. Utilisation de : <span class="highlighting">ExpressJS</span>, <span class="highlighting">EJS</span>, <span class="highlighting">Socket.io</span>, <span class="highlighting">commander</span>, <span class="highlighting">mongoose</span>, etc. Partage sur GitHub.
+					</p>
+					<h6>Architecture Mobile first</h6>
+					<p>
+						Création de structure Front-end responsive orientées <span class="highlighting">Mobile first</span>, multi-browser avec <span class="highlighting">fallback</span> pour vieux navigateurs (<span class="highlighting">Modernizr</span>) et échange <span class="highlighting">Websocket</span>/<span class="highlighting">AJAX</span>.
+					</p>
+					<h6>Performances et SEO</h6>
+					<p>
+						Optimisation image (<span class="highlighting">sprite</span>/<span class="highlighting">base64</span>), minification CSS, offuscation JS, respect des standards <span class="highlighting">W3C</span>, parallélisation de chargement sous environnement <span class="highlighting">Apache</span>.
+					</p>
+					<h6>PHP</h6>
+					<p>
+						Développement d'une architecture <span class="highlighting">MVC2</span>, avec Framework <span class="highlighting">PHP 5.4</span> personnel, orientée <span class="highlighting">Front-End</span> (<span class="highlighting">HTML5</span>/<span class="highlighting">CSS3</span>/<span class="highlighting">JS</span>) : multi-plateforme, interopérabilité navigateur, multilingue, multi-template, impression, édition temps réel...
+					</p>
+				</article>
+			</div>
+			<div id="pre" class="item3 pre">
+				<time datetime="2005-06-01" class="first"> ... </time><article>
+				<h4>Avant et pendant études</h4>
+				<p>
+					<span class="highlighting">Création intégrale</span> de deux sites web communautaires distincts (<span class="highlighting">xHTML</span>, <span class="highlighting">CSS</span>, <span class="highlighting">PHP</span>, <span class="highlighting">MySQL</span> et <span class="highlighting">AJAX</span>) sans CMS dont fonctionnalités suivantes :<br/>
+				</p>
+				<ul>
+					<li>Espace membre et fiche perso,</li>
+					<li>Gestion de droits utilisateur,</li>
+					<li>Éditeur de contenu de page,</li>
+					<li>Forum de discussion,</li>
+					<li>Chat web,</li>
+					<li>Créateur de Fanfiction,</li>
+					<li>Editeur de news et màj,</li>
+					<li>Multi-design,</li>
+					<li>Mini-jeux, etc.</li>
+					<li>...</li>
+				</ul>
+				</article>
+			</div>
+			</section><section class="lang">
+			<div>
+				<h2 class="section">Langues</h2>
+			</div>
+			<ul>
+				<li>Français <span>(Langue maternelle)</span></li>
+				<li><a href="#source-school">Anglais <span>(Compétences professionnelles, CECR niveau B2)</a></span></li>
+			</ul>
+			</section><section class="knowledge">
+			<div>
+				<h2 class="section">Certifications et distinctions</h2>
+			</div>
+			<ul>
+				<li><a href="#source-school">Médaille du mérite 2008 département R&amp;T à l'IUT d'Annecy-le-Vieux <span>(Université de Savoie, 2008)</a></span></li>
+				<li><a href="#source-school">Cisco Certified Network Associate level 1 &amp; 2 <span>(Université de Savoie, 2008)</a></span></li>
+			</ul>
+			</section><section class="about">
+			<div>
+				<h2 class="section">À propos de moi</h2>
+			</div>
+			<p>
+				Développeur Web spécialiste JavaScript dans l'ouest, je vis chaque jour ma passion nageant parmi les techniques actuelles et d'avenir en matière d'interfaces utilisateurs Front-end, d'algorithmie Node.js et de technos web. C'est pourquoi tous les jours au petit déjeuner (mais pas que), je prépare de quoi satisfaire ma faim de Responsive Web Design, de performances web, de respect des standards, de bonnes pratiques, de POC HTML5/CSS3/ES6, d'accessibilité web, de factorisation, d'automatisation, de partage, de casse-tête en tout genre et ce à travers des projets et prototypes toujours plus appétissants.
+			</p>
+			<p>
+				Dernier gros plats en date ? La société Orchard ID ; un verger digital ou tous ses passionnés sont équitablement ensoleillés et ou chaque idée peut mûrir, nourrie de votre collaboration. Dans ce verger, j'ameubli les specs, j'éboutonne les fonctionnalités, je bouture le code et je tuteure le développement. Prouvez-nous que votre projet web mérite d'être semé, et nous vous convaincrons que notre équipe est la meilleure pour le faire mûrir, croître et consommer !
+			</p>
+			<p>
+				 Vous pourrez me trouver sur Twitter (@ZetesEthique) ou sur sur Google+ (+Bruno Lesieur) pendant mes heures de veilles pour parler : conception, développement, intégration, ergonomie, optimisation, performance, référencement, web, technos...
+			</p>
+			<p class="standard">
+				 ... <a href="https://www.lesieur.name/a-propos/" title="A propos de moi">plus de détails sur mon site</a>.
+			</p>
+			<p class="extended">
+				 ... plus de détails sur <a href="https://www.lesieur.name/a-propos/" title="A propos de moi">https://www.lesieur.name/a-propos/</a>.
+			</p>
+			<h3>Ce qui me divertit</h3>
+			<ul>
+				<li>Comprendre pourquoi LOST a fini comme ça,</li>
+				<li>Cultiver les problèmes à base de solutions,</li>
+				<li>Chanter par-dessus les génériques TV,</li>
+				<li>Faire de la R&amp;D perdu dans mes onglets,</li>
+				<li>Rouler en chaussure,</li>
+				<li>Écrire des espaces insécables en Bépo,</li>
+				<li>Exercer mon esprit critique (es-tu là ?),</li>
+				<li>Courir les marathons sur Codefights,</li>
+				<li>Être écolo quand ça m'arrange,</li>
+				<li>Échapper aux incidents fâcheux avec un Dé pipé,</li>
+				<li>Et plein d'autres trucs inconnus... et vice et versa...</li>
+			</ul>
+			</section>
+		</div>
+
+<? include partials/footer.htm ?>
+<? include partials/master-foot.htm ?>

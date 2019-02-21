@@ -1,0 +1,84 @@
+{
+	"title": "CV Bruno Lesieur - Intégrateur web Front-end et Développeur Node.js",
+	"description": "CV de Bruno Lesieur présentant ses compétences et son expérience dans le domaine du web.",
+	"javascriptDisable": "Votre JavaScript n'est pas activé. La partie « Expériences » n'est pas encore consultable sans JavaScript.",
+	"header": {
+		"title": "Développeur web full-stack JavaScript <small>(entre autre)</small>",
+		"cv": "CV",
+		"name": "Bruno Lesieur",
+		"image": "Photo de Bruno Lesieur",
+		"information": "30 ans, BAC+5<br />Véhiculé, Permis G, Marié",
+		"extended": "Version Internet : <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
+		"standard": "<a href=\"upload/cv_bruno-lesieur_recherche-de-poste-developpeur-front-end-et-nodejs.pdf\" title=\"CV - Bruno Lesieur - Recherche de poste Développeur Front-end et Node.js.pdf\">Télécharger CV au format PDF</a>",
+		"vcard": {
+			"address": "<p><ins class=\"add7\"></ins> rue de la république<br />35150 Corps-Nuds, France</p>",
+			"email": "<div><span>Email :</span> <ins class=\"transform\">brunoxlesieurwgmailxcom</ins></div>",
+			"phone": "<div><span>Tel. :</span> +33 4 50 62 <ins class=\"add9\"></ins></div>",
+			"mobile": "<div><span>Port. :</span> +33 6 76 27 <ins class=\"add6\"></ins></div>"
+		}
+	},
+	"skills": {
+ 		"title": "Compétences",
+ 		"detail": "<a href=\"https://www.lesieur.name/competences/\" title=\"Liste détaillées de mes compétences\">En savoir plus</a><span class=\"extended\">: https://www.lesieur.name/competences/</span>",
+ 		"expertise": {
+ 			"title": "Expertise",
+ 			"items": [
+ 				"<a href='#source-html-css'>HTML(5)</a>",
+				"<a href='#source-html-css'>CSS(3)</a>",
+				"<a href='#source-javascript'>JavaScript</a>",
+				"<a href='#source-javascript'>Vanilla JS</a>",
+				"<a href='#source-javascript'>Node.js</a>",
+				"<a href='#source-javascript'>NodeAtlas</a>",
+				"<a href='#source-javascript'>jQuery</a>",
+				"<a href='#source-html-css'>Stylus</a>",
+				"<a href='#source-html-css'>Less</a>",
+				"<a href='#source-html-css'>Responsive Web Design</a>",
+				"<a href='#source-html-css'>Mobile first</a>"
+ 			]
+		},
+		"advancedSkills": {
+ 			"title": "Compétences avancées",
+ 			"items": [
+				"<a href='#source-javascript'>Vue.js</a>",
+				"<a href='#source-javascript'>AngularJS</a>",
+				"<a href='#source-php'>MySQL</a>",
+				"<a href='#source-code'>Git</a>",
+				"<a href='#source-javascript'>JSDoc</a>",
+				"<a href='#source-html-css'>Bootstrap</a>",
+				"<a href='#source-code'>Markdown</a>",
+				"<a href='#source-method'>Sublime Text</a>",
+				"<a href='#source-method'>Télétravail</a>"
+ 			]
+		},
+		"items": [
+			"<a href='#source-php'>PHP</a>",
+			"<a href='#source-design'>Photoshop</a>",
+			"<a href='#source-code'>NoSQL</a>",
+			"<a href='#source-job'>SQL Server</a>",
+			"<a href='#source-job'>C#.NET</a>",
+			"<a href='#source-job'>SVN</a>",
+			"<a href='#source-job'>Visual Studio</a>",
+			"<a href='#source-method'>Zététique</a>",
+			"<a href='#source-method'>Holacracy</a>"
+		]
+	},
+	"essential": {
+		"title": "En un coup d'œil",
+		"jobs": {
+			"title": "Derniers postes",
+			"items": [
+				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack JS / Directeur Technique</a></span><br/><span class=\"at\">chez</span> Orchard ID",
+				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Front-end / Back-end Node.js</a></span><br/><span class=\"at\">chez</span> Knowledge Expert",
+				"<span class=\"eye-catching\"><a href='#source-job'>Intégrateur / Développeur web</a></span><br/><span class=\"at\">chez</span> MediaWelcome"
+			]
+		},
+		"degrees": {
+			"title": "Formations (Niveau 1, BAC+5)",
+			"items": [
+				"<span class=\"eye-catching\"><a href='#source-school'>Master Pro M2I</a></span>, ITIN-ESCIA",
+				"<span class=\"eye-catching\"><a href='#source-school'>DUT R&amp;T</a></span>, Université de Savoie",
+				"<span class=\"eye-catching\"><a href='#source-school'>BAC S</a></span>, Lycée Paul Langevin"
+			]
+		}
+	}
+}

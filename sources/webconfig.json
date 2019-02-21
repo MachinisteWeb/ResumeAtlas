@@ -1,0 +1,27 @@
+{
+	"httpPort": 7777,
+	"htmlGenerationBeforeResponse": true,
+	"serverlessRelativePath": "../website/",
+	"variation": "common.json",
+	"assetsCopy": true,
+	"output": true,
+	"less": true,
+	"languageCode": "fr-fr",
+	"bundles": "bundles.json",
+	"routes": {
+		"/en/": {
+			"view": "index.htm",
+			"languageCode": "en",
+			"output": "/en/index.html"
+		},
+		"/cv": {
+			"view": "cv.htm",
+			"output": "/cv.html"
+		},
+		"/": {
+			"view": "index.htm",
+			"output": "/index.html"
+		}
+	},
+	"_minified": ""
+}
