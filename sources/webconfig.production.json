@@ -1,0 +1,25 @@
+{
+	"cache": true,
+    "httpSecure": true,
+	"httpPort": 7777,
+	"httpHostname": "bruno.lesieur.name",
+	"pageNotFound": "/page-inexistante/",
+	"languageCode": "fr-fr",
+    "variation": "common.json",
+	"urlPort": 443,
+  	"bundles": "bundles.json",
+	"routes": {
+		"/en/": {
+			"view": "index.htm",
+			"languageCode": "en"
+		},
+		"/page-inexistante/": {
+			"redirect": "/",
+			"statusCode": 301
+		},
+		"/": {
+			"view": "index.htm"
+		}
+	},
+	"_minified": ".min"
+}
