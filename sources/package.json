@@ -1,5 +1,8 @@
 {
   "scripts": {
     "start": "node bruno.lesieur.name.na"
+  },
+  "dependencies": {
+    "node-atlas": "2.0.6"
   }
 }
