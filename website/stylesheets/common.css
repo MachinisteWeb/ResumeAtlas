@@ -384,14 +384,23 @@ hr {
   display: none;
 }
 /** Surcharg� en jQuery pour la responsivit� **/
+.experiences .impaakt .first {
+  top: 10%;
+}
+.experiences .impaakt .second {
+  top: 60%;
+}
+.experiences .ametis .first {
+  top: 30%;
+}
 .experiences .orchardid .first {
-  top: 15%;
+  top: 10%;
 }
 .experiences .orchardid .second {
-  top: 50%;
+  top: 40%;
 }
 .experiences .orchardid .third {
-  top: 80%;
+  top: 75%;
 }
 .experiences .knowledgeexpert .first {
   top: 5%;
@@ -475,6 +484,14 @@ dd {
   padding-left: 36px;
   margin-top: 2px;
   margin-bottom: 2px;
+}
+.impaakt {
+  left: 0;
+  width: 50%;
+}
+.ametis {
+  left: 0;
+  width: 50%;
 }
 .orchardid {
   left: 0;
@@ -648,6 +665,12 @@ tfoot th h2 {
     float: none;
     width: auto;
     display: none;
+  }
+  .impaakt {
+    width: 100%;
+  }
+  .ametis {
+    width: 100%;
   }
   .orchardid {
     width: 100%;

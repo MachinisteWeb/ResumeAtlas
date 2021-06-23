@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 	$(".add6").text("14 29");
-	$(".add7").text("4");
+	$(".add7").text("7-9");
 	$(".add9").text("45 11");
 	$(".transform").text( $(".transform").text().replace(/w/gi,"@").replace(/x/gi,".") );
 
@@ -26,7 +26,9 @@ $(document).ready(function () {
 });
 
 function resize() {
-	var $orchardid = $("#orchardid"),
+	var $impaakt = $("#impaakt"),
+		$ametis = $("#ametis"),
+		$orchardid = $("#orchardid"),
 		$knowledgeexpert = $("#knowledgeexpert"),
 		$mediawelcome = $("#mediawelcome"),
 		$bfine = $("#bfine"),
@@ -40,6 +42,8 @@ function resize() {
 		$experiences = $("#experiences");
 
 	// Destruction des calculs précédents.
+	$impaakt.removeAttr("style");
+	$ametis.removeAttr("style");
 	$orchardid.removeAttr("style");
 	$knowledgeexpert.removeAttr("style");
 	$mediawelcome.removeAttr("style");
@@ -56,6 +60,8 @@ function resize() {
 	// Création de la timeline.
 	// En PC et grande tablette.
 	if ($(window).width() > 660) {
+		$ametis.css("top", $impaakt.position().top + $impaakt.height());
+		$orchardid.css("top", $ametis.position().top + $ametis.height());
 		$knowledgeexpert.css("top", $orchardid.position().top + $orchardid.height());
 		$mediawelcome.css("top", $knowledgeexpert.position().top + $knowledgeexpert.height());
 		$bfine.css("top", $mediawelcome.position().top + $mediawelcome.height());
@@ -63,18 +69,20 @@ function resize() {
 		$itin.css("top", $bfine.position().top); $itin.height($bfine.height() + $infovive.height());
 		$iut.css("top", $itin.position().top + $itin.height());
 		$bac.css("top", $iut.position().top + $iut.height());
-		$post.css("top", $orchardid.position().top).height($orchardid.height());
+		$post.css("top", $impaakt.position().top).height($impaakt.height());
 		$pre.css("top", $iut.position().top).height($iut.height() + $bac.height());
 
 		$itinArticle.css("height", $itin.height() - 32);
 
-		$experiences.height( $orchardid.height() + $knowledgeexpert.height() + $mediawelcome.height() + $bfine.height() + $infovive.height() + $iut.height() + $bac.height() + 32 );
+		$experiences.height( $impaakt.height() + $ametis.height() + $orchardid.height() + $knowledgeexpert.height() + $mediawelcome.height() + $bfine.height() + $infovive.height() + $iut.height() + $bac.height() + 32 );
 
 		// Alternance
 		$("#bfine ins").css("top", (($bfine.height() / 4) * 2) - 16);
 		$("#infovive ins").css("top", (($infovive.height() / 4) * 2) + 16);
 	// En mobile et petite tablette.
 	} else {
+		$ametis.css("top", $impaakt.position().top + $impaakt.height());
+		$orchardid.css("top", $ametis.position().top + $ametis.height());
 		$knowledgeexpert.css("top", $orchardid.position().top + $orchardid.height());
 		$mediawelcome.css("top", $knowledgeexpert.position().top + $knowledgeexpert.height());
 		$bfine.css("top", $mediawelcome.position().top + $mediawelcome.height());
@@ -87,13 +95,15 @@ function resize() {
 
 		// Différent si on affiche pro ou per
 		if ($experiences.hasClass("pro")) {
-			$experiences.height( $orchardid.height() + $knowledgeexpert.height() + $mediawelcome.height() + $bfine.height() + $infovive.height() + 96 );
+			$experiences.height( $impaakt.height() + $ametis.height() + $orchardid.height() + $knowledgeexpert.height() + $mediawelcome.height() + $bfine.height() + $infovive.height() + 96 );
 		} else {
 			$experiences.height( $post.height() + $itin.height() + $iut.height() + $bac.height() + $pre.height() + 96 );
 		}
 	}
 
 	// Responsivité des durées en hauteur.
+	$("#impaakt div").css("height", $impaakt.height() - 32).css("padding-top", ($impaakt.height() - 40) / 2);
+	$("#ametis div").css("height", $ametis.height() - 32).css("padding-top", ($ametis.height() - 40) / 2);
 	$("#orchardid div").css("height", $orchardid.height() - 32).css("padding-top", ($orchardid.height() - 40) / 2);
 	$("#knowledgeexpert div").css("height", $knowledgeexpert.height() - 32).css("padding-top", ($knowledgeexpert.height() - 40) / 2);
 	$("#mediawelcome div").css("height", $mediawelcome.height() - 32).css("padding-top", ($mediawelcome.height() - 40) / 2);
