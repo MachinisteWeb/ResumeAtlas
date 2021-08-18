@@ -3,6 +3,6 @@
     "start": "node bruno.lesieur.name.na"
   },
   "dependencies": {
-    "node-atlas": "2.0.7"
+    "node-atlas": "2.0.8"
   }
 }
