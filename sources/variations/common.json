@@ -7,11 +7,11 @@
 		"cv": "CV",
 		"name": "Bruno J. S. Lesieur",
 		"image": "Photo de Bruno Lesieur",
-		"information": "33 ans, BAC+5<br />Véhiculé, Permis G, Marié",
+		"information": "34 ans, BAC+5<br />Véhiculé, Permis G, Marié",
 		"extended": "Version Internet : <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
 		"standard": "<a href=\"upload/cv_bruno-lesieur_recherche-de-poste-developpeur-front-end-et-nodejs.pdf\" title=\"CV - Bruno Lesieur - Recherche de poste Développeur Front-end et Node.js.pdf\">Télécharger CV au format PDF</a>",
 		"vcard": {
-			"address": "<p><ins class=\"add10\"></ins> Chemin de Certoux<br />74160 Saint-Julien en Genevois, France</p>",
+			"address": "<p>74160 Saint-Julien en Genevois<br />France</p>",
 			"email": "<div><span>Email :</span> <ins class=\"transform\">brunoxlesieurwgmailxcom</ins></div>",
 			"phone": "<div><span>Tel. :</span> +33 4 50 62 <ins class=\"add9\"></ins></div>",
 			"mobile": "<div><span>Port. :</span> +33 6 76 27 <ins class=\"add6\"></ins></div>"
