@@ -7,11 +7,11 @@
 		"cv": "CV",
 		"name": "Bruno J. S. Lesieur",
 		"image": "Photo de Bruno Lesieur",
-		"information": "34 ans, BAC+5<br />Véhiculé, Permis G, Marié",
+		"information": "34 ans, BAC+5<br />Télétravail",
 		"extended": "Version Internet : <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
 		"standard": "<a href=\"upload/cv_bruno-lesieur_recherche-de-poste-developpeur-front-end-et-nodejs.pdf\" title=\"CV - Bruno Lesieur - Recherche de poste Développeur Front-end et Node.js.pdf\">Télécharger CV au format PDF</a>",
 		"vcard": {
-			"address": "<p>74160 Saint-Julien en Genevois<br />France</p>",
+			"address": "<p>Saint-Julien en Genevois<br />74160, France</p>",
 			"email": "<div><span>Email :</span> <ins class=\"transform\">brunoxlesieurwgmailxcom</ins></div>",
 			"phone": "<div><span>Tel. :</span> +33 4 50 62 <ins class=\"add9\"></ins></div>",
 			"mobile": "<div><span>Port. :</span> +33 6 76 27 <ins class=\"add6\"></ins></div>"
@@ -20,47 +20,70 @@
 	"skills": {
  		"title": "Compétences",
  		"detail": "<a href=\"https://www.lesieur.name/competences/\" title=\"Liste détaillées de mes compétences\">En savoir plus</a><span class=\"extended\">: https://www.lesieur.name/competences/</span>",
- 		"expertise": {
- 			"title": "Expertise",
+ 		"advancedSkills": {
+ 			"title": "Avancées",
  			"items": [
+				"<a href='#source-javascript'>JavaScript</a>",
+				"<a href='#source-javascript'>Vanilla JS</a>",
  				"<a href='#source-html-css'>HTML(5)</a>",
 				"<a href='#source-html-css'>CSS(3)</a>",
 				"<a href='#source-html-css'>Stylus</a>",
-				"<a href='#source-javascript'>JavaScript</a>",
-				"<a href='#source-javascript'>Vanilla JS</a>",
-				"<a href='#source-javascript'>Node.js</a>",
-				"<a href='#source-javascript'>NodeAtlas</a>",
-				"<a href='#source-javascript'>jQuery</a>",
 				"<a href='#source-html-css'>Responsive Web Design</a>",
-				"<a href='#source-html-css'>Mobile first</a>"
+				"<a href='#source-html-css'>Mobile first</a>",
+				"<a href='#source-code'>Markdown</a>",
+				"<a href='#source-javascript'>NodeAtlas</a>"
  			]
 		},
-		"advancedSkills": {
- 			"title": "Compétences avancées",
+		"strongSkills": {
+ 			"title": "Assurées",
  			"items": [
-				"<a href='#source-javascript'>Vue.js</a>",
 				"<a href='#source-php'>MySQL</a>",
-				"<a href='#source-code'>Git</a>",
-				"<a href='#source-html-css'>Less</a>",
-				"<a href='#source-javascript'>AngularJS</a>",
-				"<a href='#source-html-css'>Bootstrap</a>",
-				"<a href='#source-javascript'>JSDoc</a>",
-				"<a href='#source-code'>Markdown</a>",
+				"<a href='#source-javascript'>Vue.js</a>",
+				"<a href='#source-javascript'>jQuery</a>",
+				"<a href='#source-html-css'>Print/PDF render</a>",
+				"<a href='#source-javascript'>Node.js</a>",
+				"<a href='#source-javascript'>Vuetify</a>",
 				"<a href='#source-method'>Sublime Text</a>",
 				"<a href='#source-method'>Télétravail</a>",
 				"<a href='#source-method'>Esprit critique</a>"
  			]
 		},
-		"items": [
-			"<a href='#source-php'>PHP</a>",
-			"<a href='#source-code'>NoSQL</a>",
-			"<a href='#source-design'>Photoshop</a>",
-			"<a href='#source-job'>SQL Server</a>",
-			"<a href='#source-job'>C#.NET</a>",
-			"<a href='#source-job'>SVN</a>",
-			"<a href='#source-job'>Visual Studio</a>",
-			"<a href='#source-method'>Holacracie</a>"
-		]
+		"standardSkills": {
+ 			"title": "Intermédiaires",
+ 			"items": [
+				"<a href='#source-javascript'>Express.js</a>",
+				"<a href='#source-javascript'>Nuxt</a>",
+				"<a href='#source-code'>Git</a>",
+				"<a href='#source-javascript'>AngularJS</a>",
+				"<a href='#source-html-css'>Less</a>",
+				"<a href='#source-html-css'>Bootstrap</a>",
+				"<a href='#source-javascript'>JSDoc</a>",
+				"<a href='#source-design'>Photoshop</a>",
+				"<a href='#source-method'>Holacracie</a>",
+				"<a href='#source-method'>Entreprenaria</a>"
+ 			]
+		},
+		"someSkills": {
+ 			"title": "Modérées",
+ 			"items": [
+				"<a href='#source-code'>NoSQL</a>",
+				"<a href='#source-php'>PHP</a>",
+				"<a href='#source-job'>Visual Studio Code</a>",
+				"<a href='#source-job'>SVN</a>",
+				"<a href='#source-job'>C#.NET</a>",
+				"<a href='#source-job'>SQL Server</a>"
+ 			]
+		},
+		"risedSkills": {
+ 			"title": "Émergentes",
+			"items": [
+				"<a href='#source-javascript'>D3.js</a>",
+				"<a href='#source-javascript'>Quasar</a>",
+				"<a href='#source-javascript'>Angular</a>",
+				"<a href='#source-javascript'>React</a>",
+				"<a href='#source-method'>Data science</a>"
+			]
+		}
 	},
 	"essential": {
 		"title": "En un coup d'œil",
@@ -69,7 +92,8 @@
 			"items": [
 				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack / Développeur Principal</a></span><br/><span class=\"at\">chez</span> Impaakt",
 				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack JS / Directeur Technique</a></span><br/><span class=\"at\">chez</span> Orchard ID",
-				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Front-end / Back-end Node.js</a></span><br/><span class=\"at\">chez</span> Knowledge Expert"
+				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Front-end / Back-end Node.js</a></span><br/><span class=\"at\">chez</span> Knowledge Expert",
+				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Front-end JavaScript</a></span><br/><span class=\"at\">chez</span> MediaWelcome"
 			]
 		},
 		"degrees": {

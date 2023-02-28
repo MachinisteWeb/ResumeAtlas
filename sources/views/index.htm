@@ -10,11 +10,21 @@
 					<thead>
 						<tr>
 							<th class="task">
-								<?- common.skills.expertise.title ?>
+								<?- common.skills.advancedSkills.title ?>
 							</th>
 							<th class="detail">
-								<? for(var i = 0; i < common.skills.expertise.items.length; i++) { ?>
-								<span class="jellybean"><?- common.skills.expertise.items[i] ?></span>
+								<? for(var i = 0; i < common.skills.advancedSkills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.advancedSkills.items[i] ?></span>
+								<? } ?>
+							</th>
+						</tr>
+						<tr>
+							<th>
+								<?- common.skills.strongSkills.title ?>
+							</th>
+							<th>
+								<? for(var i = 0; i < common.skills.strongSkills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.strongSkills.items[i] ?></span>
 								<? } ?>
 							</th>
 						</tr>
@@ -22,21 +32,31 @@
 					<tbody>
 						<tr>
 							<th>
-								<?- common.skills.advancedSkills.title ?>
+								<?- common.skills.standardSkills.title ?>
 							</th>
 							<td>
-								<? for(var i = 0; i < common.skills.advancedSkills.items.length; i++) { ?>
-								<span class="jellybean"><?- common.skills.advancedSkills.items[i] ?></span>
+								<? for(var i = 0; i < common.skills.standardSkills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.standardSkills.items[i] ?></span>
 								<? } ?>
 							</td>
 						</tr>
 						<tr>
 							<th>
-								<?- common.skills.title ?>
+								<?- common.skills.someSkills.title ?>
 							</th>
 							<td>
-								<? for(var i = 0; i < common.skills.items.length; i++) { ?>
-								<span class="jellybean"><?- common.skills.items[i] ?></span>
+								<? for(var i = 0; i < common.skills.someSkills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.someSkills.items[i] ?></span>
+								<? } ?>
+							</td>
+						</tr>
+						<tr>
+							<th>
+								<?- common.skills.risedSkills.title ?>
+							</th>
+							<td>
+								<? for(var i = 0; i < common.skills.risedSkills.items.length; i++) { ?>
+								<span class="jellybean"><?- common.skills.risedSkills.items[i] ?></span>
 								<? } ?>
 							</td>
 						</tr>
@@ -80,12 +100,13 @@
 			</div>
 			<div id="impaakt" class="item impaakt">
 				<time datetime="2022-01-01" class="first">…</time>
-				<time datetime="2021-01-01" class="second">2021</time>
+				<time datetime="2022-01-01" class="second">2022</time>
+				<time datetime="2021-01-01" class="third">2021</time>
 				<article>
 					<h4><a href="#source-job">Dév. Fullstack JavaScript / Lead Dév.</a></h4>
 					<h5>Impaakt <span class="locality">CH-1228 Plan les Ouates (GE), Suisse</span></h5>
 					<div>
-						1 ans
+						~2 ans
 					</div>
 					<p>
 						Développement et maintenance du projet communautaire <a href="http://www.impaakt.com/" title="Measuring the real impact of businesses. Together!">Impaakt</a> : application web pour noter les sociétés sur la participation aux 17 objectifs de développement durable.
@@ -94,6 +115,7 @@
 						<li>Framework MVVM Front-end <span class="highlighting">Vue</span> pour UI/UX.</li>
 						<li>Framework SSR Back-end <span class="highlighting">Nuxt</span> pour App/API RESTfull.</li>
 						<li>Framework MVC2 Back-end <span class="highlighting">Laravel</span> pour API web.</li>
+						<li>Framework de rendu <span class="highlighting">D3.js</span> pour SVG et PDF.</li>
 					</ul>
 				</article>
 			</div>
@@ -409,7 +431,7 @@
 				<li>Rouler en chaussure,</li>
 				<li>Écrire des espaces insécables en Bépo,</li>
 				<li>Exercer mon esprit critique (es-tu là ?),</li>
-				<li>Courir les marathons sur Codefights,</li>
+				<li>Courir les marathons sur Codesignal,</li>
 				<li>Être écolo quand ça m'arrange,</li>
 				<li>Échapper aux incidents fâcheux avec un Dé pipé,</li>
 				<li>Et plein d'autres trucs inconnus... et vice et versa...</li>
