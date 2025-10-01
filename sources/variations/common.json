@@ -5,9 +5,9 @@
 	"header": {
 		"title": "Développeur web full-stack JavaScript <small>(entre autre)</small>",
 		"cv": "CV",
-		"name": "Bruno J. S. Lesieur",
+		"name": "Bruno J. S. Lesieur",
 		"image": "Photo de Bruno Lesieur",
-		"information": "34 ans, BAC+5<br />Télétravail",
+		"information": "37 ans, BAC+5<br />Télétravail / Présentiel / Temps partiel",
 		"extended": "Version Internet : <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
 		"standard": "<a href=\"upload/cv_bruno-lesieur_recherche-de-poste-developpeur-front-end-et-nodejs.pdf\" title=\"CV - Bruno Lesieur - Recherche de poste Développeur Front-end et Node.js.pdf\">Télécharger CV au format PDF</a>",
 		"vcard": {
@@ -19,7 +19,7 @@
 	},
 	"skills": {
  		"title": "Compétences",
- 		"detail": "<a href=\"https://www.lesieur.name/competences/\" title=\"Liste détaillées de mes compétences\">En savoir plus</a><span class=\"extended\">: https://www.lesieur.name/competences/</span>",
+ 		"detail": "<a href=\"https://www.lesieur.name/expertise/\" title=\"Liste détaillées de mes compétences\">En savoir plus</a><span class=\"extended\">: https://www.lesieur.name/expertise/</span>",
  		"advancedSkills": {
  			"title": "Avancées",
  			"items": [
@@ -40,48 +40,57 @@
 				"<a href='#source-php'>MySQL</a>",
 				"<a href='#source-javascript'>Vue.js</a>",
 				"<a href='#source-javascript'>jQuery</a>",
+				"<a href='#source-code'>Git</a>",
 				"<a href='#source-html-css'>Print/PDF render</a>",
 				"<a href='#source-javascript'>Node.js</a>",
 				"<a href='#source-javascript'>Vuetify</a>",
 				"<a href='#source-method'>Sublime Text</a>",
 				"<a href='#source-method'>Télétravail</a>",
+				"<a href='#source-javascript'>Nuxt</a>",
 				"<a href='#source-method'>Esprit critique</a>"
- 			]
+			]
 		},
 		"standardSkills": {
- 			"title": "Intermédiaires",
- 			"items": [
+			"title": "Intermédiaires",
+			"items": [
+				 "<a href='#source-javascript'>RESTful</a>",
 				"<a href='#source-javascript'>Express.js</a>",
-				"<a href='#source-javascript'>Nuxt</a>",
-				"<a href='#source-code'>Git</a>",
+				"<a href='#source-method'>IA Générative</a>",
 				"<a href='#source-javascript'>AngularJS</a>",
 				"<a href='#source-html-css'>Less</a>",
+				"<a href='#source-html-css'>SASS</a>",
 				"<a href='#source-html-css'>Bootstrap</a>",
 				"<a href='#source-javascript'>JSDoc</a>",
+				"<a href='#source-php'>PHP</a>",
 				"<a href='#source-design'>Photoshop</a>",
-				"<a href='#source-method'>Holacracie</a>",
-				"<a href='#source-method'>Entreprenaria</a>"
- 			]
+				"<a href='#source-design'>Audacity</a>",
+				"<a href='#source-design'>Canva</a>"
+			]
 		},
 		"someSkills": {
- 			"title": "Modérées",
- 			"items": [
+			"title": "Modérées",
+			"items": [
+				"<a href='#source-javascript'>D3.js</a>",
 				"<a href='#source-code'>NoSQL</a>",
-				"<a href='#source-php'>PHP</a>",
+				"<a href='#source-job'>Cursor</a>",
 				"<a href='#source-job'>Visual Studio Code</a>",
 				"<a href='#source-job'>SVN</a>",
 				"<a href='#source-job'>C#.NET</a>",
-				"<a href='#source-job'>SQL Server</a>"
+				"<a href='#source-job'>SQL Server</a>",
+				"<a href='#source-javascript'>Quasar</a>",
+				"<a href='#source-method'>Holacracie</a>"
  			]
 		},
 		"risedSkills": {
  			"title": "Émergentes",
 			"items": [
-				"<a href='#source-javascript'>D3.js</a>",
-				"<a href='#source-javascript'>Quasar</a>",
-				"<a href='#source-javascript'>Angular</a>",
+				"<a href='#source-method'>Data science</a>",
+				"<a href='#source-method'>Orchestration IA</a>",
+				"<a href='#source-javascript'>Svelt</a>",
 				"<a href='#source-javascript'>React</a>",
-				"<a href='#source-method'>Data science</a>"
+				"<a href='#source-javascript'>Angular</a>",
+				"<a href='#source-code'>Rust</a>",
+				"<a href='#source-code'>Go</a>"
 			]
 		}
 	},
@@ -90,8 +99,8 @@
 		"jobs": {
 			"title": "Derniers postes",
 			"items": [
-				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack / Développeur Principal</a></span><br/><span class=\"at\">chez</span> Impaakt",
-				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack JS / Directeur Technique</a></span><br/><span class=\"at\">chez</span> Orchard ID",
+				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack / CTO</a></span><br/><span class=\"at\">chez</span> Impaakt",
+				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Fullstack JS / Cofondateur</a></span><br/><span class=\"at\">chez</span> Orchard ID",
 				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Front-end / Back-end Node.js</a></span><br/><span class=\"at\">chez</span> Knowledge Expert",
 				"<span class=\"eye-catching\"><a href='#source-job'>Dév. Front-end JavaScript</a></span><br/><span class=\"at\">chez</span> MediaWelcome"
 			]
