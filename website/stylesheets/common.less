@@ -99,9 +99,6 @@ p {
 	margin-right: 8px;
 	border-radius: 8px;
 }
-.title h2 {
-	margin: 0 0 0 16px;
-}
 .vcard  {
 	width: 36%;
 	box-sizing: border-box;
@@ -221,6 +218,10 @@ hr {
 	font-weight: lighter;
 }
 
+.vcard .title-text {
+	display: none;
+}
+
 .highlighting {
 	font-style: italic;
 	font-weight: bold;
@@ -238,6 +239,9 @@ hr {
 	border-top-right-radius: 0.5rem;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+.lang {
+	padding-top: 0.1px;
 }
 .experiences .section,
 .about .section,
@@ -334,7 +338,7 @@ hr {
 	margin-bottom: 0;
 }
 .experiences .item2 h5 {
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	font-weight: lighter;
@@ -693,6 +697,12 @@ tfoot th h2 {
 	width: 80%;
 }
 
+.zetetic {
+	text-align: left;
+	margin: 1rem;
+	font-size: 1rem;
+}
+
 @media screen and (max-width: 960px) {
 	#header, .body, #footer {
 		width: auto;
@@ -858,7 +868,28 @@ tfoot th h2 {
 	}
 }
 
+/* For PDF FR */
+/* .ametis {
+	top: 910px!important;
+}
+.knowledgeexpert {
+	top: 1470px!important;
+}
+.bfine {
+	top: 2300px!important;
+} */
+
 @media print {
+	@page { margin: 0; }
+	.newpage { page-break-before: always; margin-top: 40px; }
+	.picture,
+	.title .icon,
+	.vcard .icon {
+		display: none;
+	}
+	.vcard .title-text {
+		display: inline-block;
+	}
 	.zetetic {
 		display: none;
 	}
@@ -882,12 +913,18 @@ tfoot th h2 {
 		/* pdf */ /*top: 180px;*/
 	}
 	.lang {
-		margin-top: -64px;
+		/* margin-top: -64px; */
 		/* pdf */ /*margin-top: 150px;*/
+		page-break-before: always;
 	}
+	
 	.knowledge, .about {
 		/* pdf */ /*margin-top: 100px;	*/
 	}
+
+	.about {
+	}
+
 	.experiences .section {
 		background-color: transparent;
 	}
@@ -898,7 +935,7 @@ tfoot th h2 {
 		font-weight: lighter;
 	}
 	.extended {
-		display: inline;
+		display: block;
 	}
 
 	tfoot th.detail {
@@ -931,7 +968,7 @@ tfoot th h2 {
 		display: none;
 	}
 	.experiences .item article {
-		border: 1px solid #000000;
+		border: 1px dashed #000000;
 	}
 	.experiences .item2 article {
 		border: 1px dashed #aaaaaa;
@@ -965,10 +1002,4 @@ tfoot th h2 {
 	#footer .legend {
 		margin-top: -36px;
 	}
-}
-
-.zetetic {
-	text-align: left;
-	margin: 1rem;
-	font-size: 1rem;
 }

@@ -41,7 +41,7 @@ function resize() {
 		$pre = $("#pre"),
 		$experiences = $("#experiences");
 
-	// Destruction des calculs précédents.
+	// Destruction des calculs prï¿½cï¿½dents.
 	$impaakt.removeAttr("style");
 	$ametis.removeAttr("style");
 	$orchardid.removeAttr("style");
@@ -57,7 +57,7 @@ function resize() {
 	$pre.removeAttr("style");
 	$experiences.removeAttr("style");
 
-	// Création de la timeline.
+	// Crï¿½ation de la timeline.
 	// En PC et grande tablette.
 	if ($(window).width() > 660) {
 		$ametis.css("top", $impaakt.position().top + $impaakt.height());
@@ -93,7 +93,7 @@ function resize() {
 		$bac.css("top", $iut.position().top + $iut.height());
 		$pre.css("top", $bac.position().top + $bac.height());
 
-		// Différent si on affiche pro ou per
+		// Diffï¿½rent si on affiche pro ou per
 		if ($experiences.hasClass("pro")) {
 			$experiences.height( $impaakt.height() + $ametis.height() + $orchardid.height() + $knowledgeexpert.height() + $mediawelcome.height() + $bfine.height() + $infovive.height() + 96 );
 		} else {
@@ -101,7 +101,7 @@ function resize() {
 		}
 	}
 
-	// Responsivité des durées en hauteur.
+	// Responsivitï¿½ des durï¿½es en hauteur.
 	$("#impaakt div").css("height", $impaakt.height() - 32).css("padding-top", ($impaakt.height() - 40) / 2);
 	$("#ametis div").css("height", $ametis.height() - 32).css("padding-top", ($ametis.height() - 40) / 2);
 	$("#orchardid div").css("height", $orchardid.height() - 32).css("padding-top", ($orchardid.height() - 40) / 2);
@@ -114,7 +114,7 @@ function resize() {
 	$("#iut div").css("height", $iut.height() - 32).css("padding-top", ($iut.height() - 40) / 2);
 	$("#bac div").css("height", $bac.height() - 32).css("padding-top", ($bac.height() - 40) / 2);
 
-	// Responsivité des dates en hauteur.
+	// Responsivitï¿½ des dates en hauteur.
 	$("#mediawelcome .second").css("top", (($mediawelcome.height() / 16) * 12));
 	$("#bfine .first").css("top", (($bfine.height() / 4) * 1));
 	$("#bfine .second").css("top", (($bfine.height() / 4) * 3));
