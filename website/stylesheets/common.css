@@ -69,6 +69,9 @@ p {
   margin-bottom: 0;
   position: relative;
 }
+.punchline {
+  text-align: center;
+}
 .title {
   float: left;
   width: 64%;
@@ -97,7 +100,7 @@ p {
 }
 .vcard p {
   font-size: 1.2rem;
-  margin: 0 0 1.4rem 0;
+  margin: 0 0 3.6rem 0;
   line-height: 1.5;
 }
 input {
@@ -134,9 +137,6 @@ section {
   padding: 0 1em 0 1rem;
   font-size: 0.9em;
 }
-.essential h3 {
-  margin-top: 0;
-}
 .essential h4 {
   margin-top: 8px;
   margin-bottom: 0;
@@ -165,7 +165,15 @@ hr {
   font-size: 8rem;
   color: #eeeeee;
   z-index: -1;
-  margin-top: 4rem;
+  margin-top: 3rem;
+}
+#header .lang {
+  position: absolute;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-top: 8.8rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #header h1 {
   border-left: dashed 1px #D4DBF9;
@@ -665,6 +673,16 @@ tfoot th h2 {
   font-size: 1rem;
 }
 @media screen and (max-width: 960px) {
+  #header .lang {
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+    position: static;
+    transform: none;
+    text-align: center;
+  }
+  #header .cv {
+    margin-top: 4rem;
+  }
   #header,
   .body,
   #footer {
@@ -674,6 +692,15 @@ tfoot th h2 {
   }
 }
 @media screen and (max-width: 660px) {
+  .punchline {
+    text-align: left;
+  }
+  .vcard span {
+    width: auto;
+  }
+  .vcard p {
+    margin: 1rem 0 0 0;
+  }
   .title {
     float: none;
     width: 100%;
@@ -829,15 +856,18 @@ tfoot th h2 {
   }
 }
 /* For PDF FR */
-.ametis {
-  top: 910px!important;
+/* .ametis {
+	top: 850px!important;
 }
 .knowledgeexpert {
-  top: 1470px!important;
+	top: 1410px!important;
 }
 .bfine {
-  top: 2300px!important;
+	top: 2240px!important;
 }
+.experiences .section {
+	margin-top: 0;
+} */
 @media print {
   @page {
     margin: 0;
@@ -850,6 +880,9 @@ tfoot th h2 {
   .title .icon,
   .vcard .icon {
     display: none;
+  }
+  .punchline {
+    text-align: left;
   }
   .vcard .title-text {
     display: inline-block;
@@ -890,6 +923,9 @@ tfoot th h2 {
   .about {
     /* pdf */
     /*margin-top: 100px;	*/
+  }
+  .body {
+    margin-top: -2rem;
   }
   .experiences .section {
     background-color: transparent;
@@ -957,6 +993,10 @@ tfoot th h2 {
   #header .cv {
     font-size: 4rem;
     top: -0.2rem;
+    margin-top: 4rem;
+  }
+  #header .lang {
+    display: none;
   }
   .title img {
     margin-top: 0;

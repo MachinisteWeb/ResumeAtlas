@@ -1,38 +1,229 @@
 {
-	"title": "Bruno Lesieur Resumé - Front-end and Node.js Web Developer",
-	"description": "Bruno Lesieur Resumé about his skills and his experiences about web.",
-	"javascriptDisable": "Javascript is disabled. The « experience » part will be readable as soon as possible without JavaScript.",
-	"header": {
-		"title": "JavaScript Web Developer Front-end and Node.js",
-		"cv": "Resumé",
-		"image": "Bruno Lesieur Portrait",
-		"information": "26 years old, Master's Degree<br />Driving Licence, Swiss Cross-border Permit",
-		"extended": "Internet version : <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
-		"standard": "<a href=\"upload/cv_bruno-lesieur_job-search-developer-front-end-and-node.js.pdf\" title=\"CV - Bruno Lesieur - Job Search Developer Front-end and Node.js.pdf\">Download Resumé in PDF format</a>",
-		"vcard": {
-			"phone": "<div><span>Home :</span> +33 4 50 62 <ins class=\"add9\"></ins></div>",
-			"mobile": "<div><span>Mob. :</span> +33 6 76 27 <ins class=\"add6\"></ins></div>"
-		}
-	},
-	"skills": {
- 		"title": "Skills",
-		"detail": "<a href=\"http://www.haeresis.fr/en-us/#/about-my-skills\" title=\"Detailed list of my skills\">More info</a><span class=\"extended\">: http://www.haeresis.fr/en-us/#/about-my-skills</span>",
- 		"advancedSkills": {
- 			"title": "Advanced Skills"
-		}
-	},
-	"essential": {
-		"title": "Overview",
-		"jobs": {
-			"title": "Previous Jobs",
-			"items": [
-				"<span class=\"eye-catching\">Front-end Dev. / Back-end Node.js</span><br/><span class=\"at\">at</span> Knowledge Expert",
-				"<span class=\"eye-catching\">Web developer</span><br/><span class=\"at\">at</span> MediaWelcome",
-				"<span class=\"eye-catching\">Web developer / Junior Consultant</span><br/><span class=\"at\">at</span> B-Fine Consulting"
-			]
-		},
-		"degrees": {
-			"title": "Degrees (Master's Degree)"
-		}
+    "title": "CV Bruno Lesieur - Front-end Web Integrator and Node.js Developer",
+    "description": "Bruno Lesieur's CV presenting his skills and experience in the web field.",
+    "javascriptDisable": "Your JavaScript is disabled. The 'Experience' section is not viewable without JavaScript.",
+    "header": {
+        "title": "Senior JavaScript Developer <small>(Front-end & Node.js, among others)</small>",
+        "lang": "<a href=\"./\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Version française\">Version française ici</a>",
+		"cv": "CV",
+        "name": "Bruno J. S. Lesieur",
+        "image": "Photo of Bruno Lesieur",
+        "information": " <span class=\"icon\">🚀</span> 15+ years exp. &bull; <span class=\"icon\">🎓</span> Master's Level<br /><span class=\"icon\">💼</span> Remote / Hybrid &bull; <span class=\"icon\">⏱</span> 80–100%",
+        "extended": "Online Version: <span class=\"highlighting\">http://bruno.lesieur.name/</span>",
+        "standard": "<a href=\"upload/cv_bruno-lesieur_senior-frontend-and-nodejs-developer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"CV - Bruno Lesieur - Job search Front-end and Node.js Web Developer.pdf\">Download CV in PDF format</a>",
+        "vcard": {
+            "address": "<p><span class=\"icon\">📍</span> <span class=\"title-text\">Location:</span> Saint-Julien-en-Genevois, 74160<br />France (Cross-border worker, Geneva)</p>",
+            "email": "<div><span class=\"icon\">📧</span> <span class=\"title-text\">Email:</span> <ins class=\"transform\">brunoxlesieurwgmailxcom</ins></div>",
+            "phone": "<div><span class=\"icon\">📞</span> <span class=\"title-text\">Tel.:</span> +33 4 50 62 <ins class=\"add9\"></ins></div>",
+            "mobile": "<div class=\"extended\"><span class=\"icon\">📱</span> <span class=\"title-text\">Mobile:</span> +33 6 76 27 <ins class=\"add6\"></ins></div>",
+            "links": "<div class=\"standard\"><span class=\"icon\">🔗</span> <span class=\"title-text\">Links:</span> <a href=\"http://www.lesieur.name\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"View my Portfolio\">Portfolio</a> &bull; <a href=\"https://www.linkedin.com/in/brunolesieur\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"View my LinkedIn profile\">LinkedIn</a> &bull; <a href=\"https://github.com/MachinisteWeb\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"View my code on GitHub\">GitHub</a></div>"
+        },
+		"punchline": "Insat<span style=\"font-family: 'Times New Roman', sans-serif;\">IA</span>ble curiosity, critical thinking and intellectual charity: serving tools that perform, and humans who matter."
+    },
+    "skills": {
+         "title": "Skills",
+         "detail": "<a href=\"https://www.lesieur.name/expertise/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Detailed list of my skills\">Read more</a><span class=\"extended\">: https://www.lesieur.name/expertise/</span>",
+         "advancedSkills": {
+             "title": "Advanced",
+             "items": [
+                "<a href='#source-javascript'>JavaScript</a>",
+                "<a href='#source-javascript'>Vanilla JS</a>",
+                "<a href='#source-html-css'>HTML(5)</a>",
+                "<a href='#source-html-css'>CSS(3)</a>",
+                "<a href='#source-html-css'>Stylus</a>",
+                "<a href='#source-html-css'>Responsive Web Design</a>",
+                "<a href='#source-html-css'>Mobile first</a>",
+                "<a href='#source-code'>Markdown</a>",
+                "<a href='#source-javascript'>NodeAtlas</a>"
+             ]
+        },
+        "strongSkills": {
+             "title": "Proficient",
+             "items": [
+                "<a href='#source-php'>MySQL</a>",
+                "<a href='#source-javascript'>Vue.js</a>",
+                "<a href='#source-javascript'>jQuery</a>",
+                "<a href='#source-code'>Git</a>",
+                "<a href='#source-html-css'>Print/PDF render</a>",
+                "<a href='#source-javascript'>Node.js</a>",
+                "<a href='#source-javascript'>Vuetify</a>",
+                "<a href='#source-method'>Sublime Text</a>",
+                "<a href='#source-method'>Remote work</a>",
+                "<a href='#source-javascript'>Nuxt</a>",
+                "<a href='#source-method'>Critical thinking</a>"
+            ]
+        },
+        "standardSkills": {
+            "title": "Intermediate",
+            "items": [
+                 "<a href='#source-javascript'>RESTful</a>",
+                "<a href='#source-javascript'>Express.js</a>",
+                "<a href='#source-method'>Generative AI</a>",
+                "<a href='#source-javascript'>AngularJS</a>",
+                "<a href='#source-html-css'>Less</a>",
+                "<a href='#source-html-css'>SASS</a>",
+                "<a href='#source-html-css'>Bootstrap</a>",
+                "<a href='#source-javascript'>JSDoc</a>",
+                "<a href='#source-php'>PHP</a>",
+                "<a href='#source-design'>Photoshop</a>",
+                "<a href='#source-design'>Audacity</a>",
+                "<a href='#source-design'>Canva</a>"
+            ]
+        },
+        "someSkills": {
+            "title": "Moderate",
+            "items": [
+                "<a href='#source-javascript'>D3.js</a>",
+                "<a href='#source-code'>NoSQL</a>",
+                "<a href='#source-job'>Cursor</a>",
+                "<a href='#source-job'>Visual Studio Code</a>",
+                "<a href='#source-job'>SVN</a>",
+                "<a href='#source-job'>C#.NET</a>",
+                "<a href='#source-job'>SQL Server</a>",
+                "<a href='#source-javascript'>Quasar</a>",
+                "<a href='#source-method'>Holacracy</a>"
+             ]
+        },
+        "risedSkills": {
+             "title": "Emerging",
+            "items": [
+                "<a href='#source-method'>Data science</a>",
+                "<a href='#source-method'>AI Orchestration</a>",
+                "<a href='#source-javascript'>Svelte</a>",
+                "<a href='#source-javascript'>React</a>",
+                "<a href='#source-javascript'>Angular</a>",
+				"<a href='#source-code'>Python</a>",
+                "<a href='#source-code'>Rust</a>",
+                "<a href='#source-code'>Go</a>"
+            ]
+        }
+    },
+    "essential": {
+        "title": "At a Glance",
+        "jobs": {
+            "title": "Latest Positions",
+            "items": [
+                "<span class=\"eye-catching\"><a href='#source-job'>Fullstack Dev / CTO</a></span><br/><span class=\"at\">at</span> Impaakt",
+                "<span class=\"eye-catching\"><a href='#source-job'>Fullstack JS Dev / Co-founder</a></span><br/><span class=\"at\">at</span> Orchard ID",
+                "<span class=\"eye-catching\"><a href='#source-job'>Front-end Dev / Back-end Node.js</a></span><br/><span class=\"at\">at</span> Knowledge Expert",
+                "<span class=\"eye-catching\"><a href='#source-job'>Front-end JavaScript Dev</a></span><br/><span class=\"at\">at</span> MediaWelcome"
+            ]
+        },
+        "degrees": {
+            "title": "Education (Master's Level)",
+            "items": [
+                "<span class=\"eye-catching\"><a href='#source-school'>Master Pro M2I</a></span>, ITIN-ESCIA",
+                "<span class=\"eye-catching\"><a href='#source-school'>DUT R&amp;T (HND equiv.)</a></span>, University of Savoie",
+                "<span class=\"eye-catching\"><a href='#source-school'>BAC S (A-Levels equiv.)</a></span>, Lycée Paul Langevin"
+            ]
+        }
+    },
+    "experiences": {
+        "title": "Experience",
+        "alternance": "Apprenticeship",
+        "professional": {
+            "title": "Professional",
+            "impaakt": {
+                "title": "CTO / Lead Dev. / Fullstack JavaScript Dev.",
+                "location": "CH-1228 Plan les Ouates (GE), Switzerland",
+                "company": "Impaakt",
+                "duration": "5 years<br>6 months",
+                "description": "<p>Team collaboration on development processes and technologies used.</p><ul><li>Leading the internal team: <span class=\"highlighting\">on-site/remote/80%</span>.</li><li>Leading <span class=\"highlighting\">international external teams</span> in full remote.</li><li>Internship <span class=\"highlighting\">mentoring</span>.</li></ul><p>Development and maintenance of the SaaS <a href=\"http://sr.impaakt.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Measuring the real impact of businesses. Together!\">Sustainability Report</a>: web application for double materiality assessment processes to provide graphs and sustainability reports based on data collected from companies, their clients, and stakeholders.</p><ul><li>Front-end MVVM <span class=\"highlighting\">Vue 3</span> for navigation.</li><li>Back-end SSR <span class=\"highlighting\">Nuxt 3</span> for App/RESTful API.</li></ul><p>Prototyping of a calculator <a href=\"http://sr.impaakt.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Measuring the real impact of businesses. Together!\">How Sustainable to Me</a>: application to guide your sustainability investments based on your own convictions.</p><ul><li>Full-stack MVVM/SSR <span class=\"highlighting\">Quasar</span> for the application.</li><li>NoSQL-database <span class=\"highlighting\">RxDB</span> for local DB.</li></ul><p>Development and maintenance of the community project <a href=\"http://www.impaakt.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Measuring the real impact of businesses. Together!\">Impaakt</a>: web application to rate companies on their participation in the 17 Sustainable Development Goals.</p><ul><li>Front-end MVVM <span class=\"highlighting\">Vue 2</span> for navigation.</li><li>UI/UX Front-end Kit <span class=\"highlighting\">Vuetify 2</span> for UI/UX.</li><li>Back-end SSR <span class=\"highlighting\">Nuxt 2</span> for content management.</li><li>Back-end MVC2 <span class=\"highlighting\">Laravel</span> for RESTful API.</li><li>SQL-database <span class=\"highlighting\">MySQL</span> for remote DB.</li><li>Graphical rendering <span class=\"highlighting\">D3.js</span> for data processing.</li><li>Puppeteer <span class=\"highlighting\">Node.js</span> for PDF generation.</li></ul>"
+            },
+            "ametis": {
+                "title": "Fullstack JavaScript Developer / Lead Developer",
+                "location": "74000 Annecy, France",
+                "company": "Amétis",
+                "duration": "9 months",
+                "description": "<p>Development and maintenance of the community project <a href=\"http://www.impaakt.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Measuring the real impact of businesses. Together!\">Impaakt</a>: web application to evaluate companies on their contribution to the 17 Sustainable Development Goals.</p>"
+            },
+			"orchardid": {
+				"title": "Fullstack JavaScript Developer / CTO",
+				"location": "35000 Rennes, France",
+				"company": "Orchard ID",
+				"duration": "2 years<br>10 months",
+				"description": "<p>Development and maintenance of the community project <a href=\"http://www.impaakt.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Measuring the real impact of businesses. Together!\">Impaakt</a>: web application to evaluate companies on their contribution to the 17 Sustainable Development Goals.</p><p>Implementation of a full-stack <span class=\"highlighting\">JavaScript</span> / <span class=\"highlighting\">Node.js</span> workflow covering the entire cycle, from development to production.</p><ul><li>Front-end MVVM Framework <span class=\"highlighting\">Vue</span> for UI/UX.</li><li>Back-end SSR Framework <span class=\"highlighting\">Nuxt</span> for App/RESTful API.</li><li>Back-end MVC2 Framework <span class=\"highlighting\">NodeAtlas</span> for Site/Web API.</li></ul><p>Refactoring from legacy tools like <span class=\"highlighting\">AngularJS</span>, <span class=\"highlighting\">jQuery</span> or monitoring technologies like <span class=\"highlighting\">PHP</span> or <span class=\"highlighting\">MySQL</span>.</p>"
+			},
+			"knowledgeexpert": {
+				"title": "Web Integrator / Node.js Developer",
+				"location": "CH-1227 Carouge (GE), Switzerland",
+				"company": "Knowledge Expert",
+				"duration": "2 years<br>8 months",
+				"description": "<h6>In charge:</h6><p><span class=\"highlighting\">HTML5</span>/<span class=\"highlighting\">CSS3</span> creation based on wireframes, style guides or PSDs.<br />UI creation with <span class=\"highlighting\">Vanilla JS</span>, <span class=\"highlighting\">jQuery</span> or <span class=\"highlighting\">AngularJS</span>, <br />Development of 2D web games <span class=\"highlighting\">Canvas</span> and <span class=\"highlighting\">Matter.js</span>.<br />Development of web productivity tools with <span class=\"highlighting\">Node.js</span>.<br />Technology watch and documentation of <span class=\"highlighting\">Front-end</span> techniques in <span class=\"highlighting\">Markdown</span>.<br /><span class=\"highlighting\">SEO</span>, <span class=\"highlighting\">W3C</span> and <span class=\"highlighting\">ECMAScript</span> recommendations and implementation.</p><h6>Support:</h6><p>Front-end integration with <span class=\"highlighting\">Aurelia.io</span> in <span class=\"highlighting\">ES6</span>. <br />Front-end integration with <span class=\"highlighting\">ASP MVC5 Razor</span> and <span class=\"highlighting\">Bootstrap</span>. <br />Development of <span class=\"highlighting\">Facebook applications</span> in <span class=\"highlighting\">PHP</span> with <span class=\"highlighting\">CodeIgniter</span>.<br />Management of <span class=\"highlighting\">remote work</span> and <span class=\"highlighting\">planning</span> tools.</p>"
+			},
+			"mediawelcome": {
+				"title": "Web Integrator / Node.js Developer",
+				"location": "74000 Annecy, France",
+				"company": "MediaWelcome",
+				"duration": "1 year<br>4 months",
+				"description": "<p><span class=\"highlighting\">Technical Lead</span> on Web 2.0 architecture, client-side and server-side.</p><p><span class=\"highlighting\">jQuery</span> plugin development for rich interfaces.<br /><span class=\"highlighting\">Cross-domain</span> development with cookie management.<br />Team upskilling in <span class=\"highlighting\">HTML5</span> and <span class=\"highlighting\">CSS3</span>.<br />Migration of an ASP .NET / C# 2.0 web solution to 4.0.<br />Web development in <span class=\"highlighting\">ASP .NET / C# 4.0</span> and <span class=\"highlighting\">Linq</span>.</p><p><span class=\"highlighting\">Drupal</span> integration and theming.<br />Maintenance and evolution of <span class=\"highlighting\">MediaWiki</span> documentation.</p>"
+			},
+			"bfine": {
+				"title": "Web Developer / Junior Consultant",
+				"location": "95310 Saint-Ouen-l'Aumône, France",
+				"company": "B-Fine Consulting",
+				"duration": "2 years",
+				"description": "<p><span class=\"highlighting\">Web Site Developer</span> and satellite applications for M3 ERP (Movex).</p><p>Web development in <span class=\"highlighting\">ASP .NET / C# 3.5</span>.<br />WinForm application development with C#.</p><p>Maintenance and evolution of the corporate site on <span class=\"highlighting\">Joomla!</span>.<br />Maintenance and evolution of the corporate blog on <span class=\"highlighting\">WordPress</span>.</p>"
+			},
+			"infovive": {
+				"title": "Web Developer / Junior Project Manager",
+				"location": "95490 Vauréal, France",
+				"company": "Infovive",
+				"duration": "1 year",
+				"description": "<p><span class=\"highlighting\">Developer and Integrator</span> for desktop and web applications for EDM (Electronic Document Management).</p><p>Intranet web development in <span class=\"highlighting\">ASP .NET / C# 2.0</span>.<br />Integration and development under MOSS 2007.</p>"
+			}
+        },
+        "personal": {
+            "title": "Personal",
+            "itin": {
+                "title": "Master Pro M2I (Manager in Computer Engineering)",
+                "company": "ITIN - ESCIA",
+                "location": "95891 Cergy-Pontoise, France",
+                "duration": "3 years",
+                "description": "<h6>M2</h6><dl><dt></dt><dd><span class=\"highlighting\">Video Game Engineering.</span></dd><dt>Project:</dt><dd>Mobile web development <span class=\"highlighting\">PHP 5.3 / MySQL</span> integrated into an <span class=\"highlighting\">Android</span> application, Hybrid application.</dd><dt>Thesis:</dt><dd>Research thesis on traceability and security of personal information with RFID.</dd></dl><h6>M1</h6><dl><dt></dt><dd><span class=\"highlighting\">Augmented Reality Engineering.</span></dd><dt>Project:</dt><dd>3D modeling and texturing using <span class=\"highlighting\">Photoshop</span> of the La Roche-Guyon theater with Virtools and <span class=\"highlighting\">embedded web</span> integration.</dd></dl><h6>L3</h6><dl><dt></dt><dd><span class=\"highlighting\">Project Management.</span></dd><dt>Project:</dt><dd>ASP.NET / C# 3.0 web development sharing a <span class=\"highlighting\">MySQL</span> DB with an integrated <span class=\"highlighting\">phpBB</span> Forum.</dd><dt>Study:</dt><dd>Studies on Neural Networks.</dd></dl>"
+            },
+            "iut": {
+                "title": "DUT R&T (Networks and Telecommunications)",
+                "company": "University of Savoie",
+                "location": "74940 Annecy-le-Vieux, France",
+                "duration": "2 years",
+                "description": "<h6>D2</h6><dl><dt></dt><dd><span class=\"highlighting\">Object-Oriented Programming.</span></dd><dt>Project:</dt><dd>Development of a <span class=\"highlighting\">PHP/MySQL</span> intranet for managing absences and delays.</dd><dt>Internship:</dt><dd>MediaWelcome: Network administration (Audit) and ASP.NET / C# web development of a community travel site.</dd></dl><h6>D1</h6><dl><dt></dt><dd><span class=\"highlighting\">Network Architectures and TCP/IP Protocols</span>.</dd><dt>Project:</dt><dd>Development of an original <span class=\"highlighting\">PHP / MySQL</span> web CMS for a dance school.</dd></dl>"
+            },
+            "bac": {
+                "title": "Baccalauréat Scientifique (A-Levels, option Life Sciences)",
+                "company": "Lycée Paul Langevin",
+                "location": "60000 Beauvais, France",
+                "duration": "3 years"
+            },
+            "post": {
+                "description": "<h4>Post-studies and projects</h4><h6>>Musical CreAItion with Suno</h6><p>Writing lyrics and poems and setting them to music using the composition and interpretation tools of the Generative AI Suno.</p><ul><li><a href=\"https://www.youtube.com/watch?v=XEaSI-Kjyig&list=PLH3d6jGCZzHy3oOXqTKMszXnp7AdwUISG\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Argumenta Pro Melodiam\">Argumenta Pro Melodiam</a><br>Creation of an AI-bum where music thinks, doubts, and blends critical thinking, humanity, and sonic poetry.</li><li><a href=\"https://www.youtube.com/watch?v=XEaSI-Kjyig&list=PLH3d6jGCZzHy3oOXqTKMszXnp7AdwUISG\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Insert song : Sung adaptations\">Insert song: Sung adaptations</a><br>Translation-adaptation of various music from games, films, ads and series.</li></ul><h6>Use of Generative AI</h6><p>Using generative AI for self-training, content creation, and project quality improvement including AIs available in Mammouth AI.</p><ul><li>Creation of YouTube thumbnails, MP3 cover art.</li><li>Code improvement with Cursor, Copilot, and Claude.</li><li>Improving interactions with AIs.</li><li>Continuous watch on generative AIs, their use, and impact.</li></ul><h6>Critical Thinking</h6><p>Study of critical thinking and the scientific method with the tool <a href=\"https://www.lesieur.name/zetetique/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Zetetics\">Zététique</a> (Skepticism) and daily practice via the <a href=\"https://www.zetetique.wiki/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Critical thinking for the general public\">Zetetique.wiki</a> project.</p><ul><li>Daily automated skeptical news,</li><li>Introductory videos,</li><li>Video courses from professionals,</li><li>Creation of summary sheets</li></ul><div class=\"newpage\"></div><h6>Coop Collaboration</h6><p>Discovery and trial of collaboration in a Coop (worker cooperative) with the <a href=\"https://www.ametis.coop/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Amétis collective of entrepreneurs\">company Amétis</a> offering a plurality of services in various fields.</p><h6>Business Creation</h6><p>Co-creation of the <a href=\"https://blog.lesieur.name/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Some #IDs and a lot of .CLASS\">company Orchard ID</a> and implementation of a philosophy of sharing and equality with company steering based on the desire and well-being of its employees rather than on objectives set by management.</p><h6>Blogging</h6><p>Publishing posts on <a href=\"https://blog.lesieur.name/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Some #IDs and a lot of .CLASS\">personal blog</a> or on <a href=\"https://blog.hellocomet.co/why-i-chose-to-replace-jquery-with-vuejs/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Bruno Lesieur on comet\">other platforms</a> like <a href=\"https://bruno-lesieur.developpez.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Bruno Lesieur on Developpez.com\">Developpez.com</a>. Translations of posts on <a href=\"https://medium.com/@OrchardID\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Bruno Lesieur on Medium\">Medium</a>. Technology watch via social networks.</p><h6>Nuxt</h6><p>Participation in the official French translation of <a href=\"https://fr.nuxtjs.org/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"The Intuitive Framework based on Vue\">Nuxt 2</a>. Translations of various documentation pages.</p><h6>Vue</h6><p>Creation and management of the official French translation team for <a href=\"https://github.com/vuejs-fr\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Vue.js FR\">Vue 2 on Github</a>. Translations of various documentation pages.</p><h6>Vanilla JS</h6><p>Complete documentation and Benchmark of <a href=\"https://blog.lesieur.name/vanilla-js-france/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Vanilla JS - Documentation in French\">Vanilla JS</a> compared to <span class=\"highlighting\">jQuery</span> for developing in native JavaScript.</p><h6>Node.js</h6><p>Creation of <a href=\"http://node-atlas.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"NodeAtlas allows you to create and maintain HTML Assets or multilingual sites simply in Node.js\">NodeAtlas</a>, an engine for <span class=\"highlighting\">MVC2</span> architecture for HTML assets, websites or real-time web applications. Stack: <span class=\"highlighting\">ExpressJS</span>, <span class=\"highlighting\">EJS</span>, <span class=\"highlighting\">Socket.io</span>, <span class=\"highlighting\">commander</span>, <span class=\"highlighting\">mongoose</span>, etc. Sharing on GitHub.</p><h6>Mobile First Architecture</h6><p>Creation of Front-end responsive structures oriented <span class=\"highlighting\">Mobile first</span>, multi-browser with <span class=\"highlighting\">fallback</span> for old browsers (<span class=\"highlighting\">Modernizr</span>) and <span class=\"highlighting\">Websocket</span>/<span class=\"highlighting\">AJAX</span> exchange.</p><h6>Performance and SEO</h6><p>Image optimization (<span class=\"highlighting\">sprite</span>/<span class=\"highlighting\">base64</span>), CSS minification, JS obfuscation, compliance with <span class=\"highlighting\">W3C</span> standards, parallel loading under <span class=\"highlighting\">Apache</span> environment.</p><h6>PHP</h6><p>Development of an <span class=\"highlighting\">MVC2</span> architecture, with personal <span class=\"highlighting\">PHP 5.4</span> Framework, oriented <span class=\"highlighting\">Front-End</span> (<span class=\"highlighting\">HTML5</span>/<span class=\"highlighting\">CSS3</span>/<span class=\"highlighting\">JS</span>): multi-platform, browser interoperability, multilingual, multi-template, print, real-time editing...</p><h6>Avatar Community</h6><p><span class=\"highlighting\">Avatar Community</span> is a community platform halfway between a <span class=\"highlighting\">website</span> and a <span class=\"highlighting\">forum</span>. It allows exchange around James Cameron's Avatar universe.</p><h6>Compilation of FFVII</h6><p>Compilation of Final Fantasy VII is a community site around the Final Fantasy VII universe. This site gathers a large number of texts and information on the Compilation of Final Fantasy VII, directly from <span class=\"highlighting\">Japan</span> and in French.</p>"
+            },
+            "pre": {
+                "description": "<h4>Before and during studies</h4><p><span class=\"highlighting\">Complete design and development</span> of two community websites (<span class=\"highlighting\">xHTML</span>, <span class=\"highlighting\">CSS</span>, <span class=\"highlighting\">PHP</span>, <span class=\"highlighting\">MySQL</span> and <span class=\"highlighting\">AJAX</span>) without CMS, including the following features:<br/></p><ul><li>Member area and personal profile,</li><li>User rights management,</li><li>Page content editor,</li><li>Discussion forum,</li><li>Web chat,</li><li>Fanfiction creator,</li><li>News and updates editor,</li><li>Multiple graphic themes,</li><li>Mini-games,</li><li>...</li></ul>"
+            }
+        }
+    },
+    "languages": {
+        "title": "Languages",
+        "items": [
+            "<li>French <span>(Native)</span></li>",
+            "<li><a href='#source-school'>English <span>(Professional proficiency, CEFR level B2)</a></span></li>"
+        ]
+    },
+    "certifications": {
+        "title": "Certifications and awards",
+        "items": [
+            "<li><a href='#source-school'>Medal of Merit 2008 R&amp;T department at IUT Annecy-le-Vieux <span>(University of Savoie, 2008)</a></span></li>",
+            "<li><a href='#source-school'>Cisco Certified Network Associate level 1 &amp; 2 <span>(University of Savoie, 2008)</a></span></li>"
+        ]
+    },
+    "about": {
+        "title": "About me",
+        "description": "<p>I am a web developer specializing in JavaScript between Annecy and Geneva, living my passion every day, swimming among current and future techniques regarding Vanilla JS or Vue.js front-end user interfaces, Node.js development, and web and AI technologies. That's why every day at breakfast (but not only), I prepare something to satisfy my hunger for Responsive Web Design, web performance, respect for standards, best practices, POC HTML5 / CSS3 / ES6+, web accessibility, factorization, automation, sharing, puzzles of all kinds, generative AIs, and this through increasingly appetizing projects and prototypes.</p><p>Latest big dish? Daily work to use the best tools at my disposal for acquiring the most parsimonious knowledge possible as well as self-work to produce the most charitable judgments regarding objectifiable reality. You can find the compilation of this work on my site <a href=\"https://www.zetetique.wiki/\">https://www.zetetique.wiki/</a>.</p><p>You can find me on LinkedIn during my watch hours to talk about: design, development, integration, ergonomics, optimization, performance, SEO, web, AI, tech, sustainable development, or even critical thinking and video games!</p><p class=\"standard\"> ... <a href=\"https://www.lesieur.name/a-propos/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"About me\">more details on my site</a>.</p><p class=\"extended\"> ... more details on <a href=\"https://www.lesieur.name/a-propos/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"About me\">https://www.lesieur.name/a-propos/</a>.</p><h3>What entertains me</h3><ul><li>Understanding why LOST ended like that,</li><li>Cultivating problems based on solutions,</li><li>Singing over TV theme songs,</li><li>Doing R&D lost in my browser tabs,</li><li>Rolling around in Heelys,</li><li>Typing non-breaking spaces using the Bépo layout,</li><li>Summoning my critical thinking (is anybody home?)</li><li>Running marathons on Codesignal,</li><li>Being eco-friendly when it suits me,</li><li>Escaping unfortunate incidents with a loaded die,</li><li>And lots of other Unknowns... and Vice & versa.</li></ul>"
+    },
+	"sources": {
+        "title": "Sources:",
+        "updated": "Last updated:",
+		"description": "<ol><li id=\"source-school\"><strong>Degrees / Certifications / Certificates:</strong><ul><li>Middle School Diploma: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/diplome-brevet.pdf\">https://blog.lesieur.name/media/images/diplome-brevet.pdf</a> (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Dipl%C3%B4me_national_du_brevet\">Info</a>)</li> <li>High School Diploma (Scientific): <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/diplome-bac-s.pdf\">https://blog.lesieur.name/media/images/diplome-bac-s.pdf</a> (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.wikipedia.org/wiki/Baccalaur%C3%A9at_scientifique#%C3%89volution_du_baccalaur%C3%A9at_scientifique\">Info</a>)</li><li>Savoie University (2-year degree): <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/diplome-bac-2.pdf\">https://blog.lesieur.name/media/images/diplome-bac-2.pdf</a> (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.francecompetences.fr/recherche/rncp/20649/\">RNCP</a>)</li><li>CISCO Certification: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/certification-ccna.pdf\">https://blog.lesieur.name/media/images/certification-ccna.pdf</a></li><li>ITIN-ESCIA School (Master's degree): <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/diplome-bac-5.pdf\">https://blog.lesieur.name/media/images/diplome-bac-5.pdf</a> (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.francecompetences.fr/recherche/rncp/35435/\">RNCP</a>)</li><li>TOEIC Certificate: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/attestation-toeic.pdf\">https://blog.lesieur.name/media/images/attestation-toeic.pdf</a></li></ul></li><li id=\"source-job\"><strong>Jobs / Company:</strong><ul><li>Job at Infovive: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-infovive.jpg\">https://blog.lesieur.name/media/images/contrat-infovive.jpg</a></li><li>Job at B-Fine Consulting: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-b-fine.pdf\">https://blog.lesieur.name/media/images/contrat-b-fine.pdf</a></li><li>Job at MediaWelcome: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-mediawelcome.pdf\">https://blog.lesieur.name/media/images/contrat-mediawelcome.pdf</a></li><li>Job at Knowledge Expert: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-knowledge-expert.pdf\">https://blog.lesieur.name/media/images/contrat-knowledge-expert.pdf</a></li><li>Job at Orchard ID: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-orchard-id.pdf\">https://blog.lesieur.name/media/images/contrat-orchard-id.pdf</a></li><li>Orchard ID Companies: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/societe-orchard-id.pdf\">https://blog.lesieur.name/media/images/societe-orchard-id.pdf</a></li><li>Job at Amétis: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-ametis.pdf\">https://blog.lesieur.name/media/images/contrat-ametis.pdf</a></li><li>Jobs at Impaakt:<ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-impaakt.pdf\">https://blog.lesieur.name/media/images/contrat-impaakt.pdf</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-impaakt-lead.pdf\">https://blog.lesieur.name/media/images/contrat-impaakt-lead.pdf</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/media/images/contrat-impaakt-cto.pdf\">https://blog.lesieur.name/media/images/contrat-impaakt-cto.pdf</a></li></ul></li></ul></li><li id=\"source-html-css\"><strong>HTML / CSS:</strong><ul><li>Articles on HTML: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=html\">https://blog.lesieur.name/recherche/?query=html</a></li><li>Articles on CSS: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=css\">https://blog.lesieur.name/recherche/?query=css</a></li><li>HTML / CSS Convention: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/conventions-html-css-js-et-architecture-front-end/\">https://blog.lesieur.name/conventions-html-css-js-et-architecture-front-end/</a></li><li>Responsive Web Design Term: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/les-concepts-autour-du-responsive-web-design/\">https://blog.lesieur.name/les-concepts-autour-du-responsive-web-design/</a></li><li>Mobile first advantage: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/\">https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/</a></li><li>Articles on Stylus: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=stylus\">https://blog.lesieur.name/recherche/?query=stylus</a></li><li>Articles on Less: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=less\">https://blog.lesieur.name/recherche/?query=less</a></li><li>Articles on Bootstrap: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=bootstrap\">https://blog.lesieur.name/recherche/?query=bootstrap</a></li></ul></li><li id=\"source-javascript\"><strong>ECMAScript / JavaScript / Node.js:</strong><ul><li>Articles on JavaScript: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=javascript\">https://blog.lesieur.name/recherche/?query=javascript</a></li><li>Articles on Node.js: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=node.js\">https://blog.lesieur.name/recherche/?query=node.js</a></li><li>ECMAScript Guides: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/apprendre-et-comprendre-javascript-version-es6/\">https://blog.lesieur.name/apprendre-et-comprendre-javascript-version-es6/</a></li><li>NodeAtlas: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://node-atlas.js.org/\">https://node-atlas.js.org/</a></li><li>Vanilla JS Documentation: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/vanilla-js-france/\">https://blog.lesieur.name/vanilla-js-france/</a></li><li>Vue.js FR Documentation Team: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fr.vuejs.org/v2/guide/team.html#community-partners\">https://fr.vuejs.org/v2/guide/team.html#community-partners</a></li><li>Articles on Vue: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=vue\">https://blog.lesieur.name/recherche/?query=vue</a></li><li>Articles on jQuery: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=jquery\">https://blog.lesieur.name/recherche/?query=jquery</a></li><li>Articles on AngularJS: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=angularjs\">https://blog.lesieur.name/recherche/?query=angularjs</a></li><li>Articles on code documentation: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.lesieur.name/recherche/?query=jsdoc\">https://blog.lesieur.name/recherche/?query=jsdoc</a></li></ul></li><li id=\"source-code\"><strong>GitHub / npm:</strong><ul><li>npm Module: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/~haeresis\">https://www.npmjs.com/~haeresis</a></li><li>Open-source projects: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/MachinisteWeb/\">https://github.com/MachinisteWeb/</a></li><li>Vue Translations: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/vuejs-fr\">https://github.com/vuejs-fr</a></li><li>MongoDB example projects: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/MachinisteWeb/BlogAtlas\">https://github.com/MachinisteWeb/BlogAtlas</a></li></ul></li><li id=\"source-image\"><strong>Design:</strong><ul><li>Compilation of FFVII Design: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.compilation-of-ff7.com/\">https://www.compilation-of-ff7.com/</a></li><li>Com'Ava Design: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.communaute-avatar.fr/\">https://www.communaute-avatar.fr/</a></li><li>Critical Strike Design (Zététique): <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.zetetique.wiki/\">https://www.zetetique.wiki/</a></li></ul></li><li id=\"source-php\"><strong>PHP / SQL:</strong><ul><li>Compilation of FFVII Website: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.compilation-of-ff7.com/\">https://www.compilation-of-ff7.com/</a></li><li>Com'Ava Website: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.communaute-avatar.fr/\">https://www.communaute-avatar.fr/</a></li><li>Old Blog: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blog.haeresis.fr/\">https://blog.haeresis.fr/</a></li><li>Old Portfolio: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.haeresis.fr/\">https://www.haeresis.fr/</a></li></ul></li><li id=\"source-method\"><strong>Critical Thinking / Corporate / Remote Work / Watch:</strong><ul><li>Zetetics for information sorting: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.zetetique.wiki/\">https://www.zetetique.wiki/</a></li><li>Holacracy for organization: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://labdsurlholacracy.com/bande-dessinee-holacracy\">https://labdsurlholacracy.com/bande-dessinee-holacracy</a></li><li>Evolutionary Purpose for goal: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.etienneappert.fr/reinventing-organizations/\">https://www.etienneappert.fr/reinventing-organizations/</a></li><li>Wholeness for well-being: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://ateliersinstantz.net/\">https://ateliersinstantz.net/</a></li><li>GlassFrog for meetings: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.holaspirit.com/\">https://www.holaspirit.com/</a></li><li>Asana for projects: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://app.asana.com/\">https://app.asana.com/</a></li><li>JIRA for tickets: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://app.asana.com/\">https://app.asana.com/</a></li><li>Trello for tasks: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://trello.com/\">https://trello.com/</a></li><li>Zoho for invoicing: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.zoho.com/\">https://www.zoho.com/</a></li><li>Dougs for accounting: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.dougs.fr/\">https://www.dougs.fr/</a></li><li>Timelyapp for time tracking: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.getharvest.com/\">https://www.getharvest.com/</a></li><li>Whereby.com for conferencing: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://appear.in/\">https://appear.in/</a></li><li>Gather.io | Workadventu.re for virtual offices: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.gather.town/\">https://www.gather.town/</a> | <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.workadventu.re/\">https://www.workadventu.re/</a></li><li>Github | Bitbucket for code review/hosting: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/\">https://github.com/</a> | <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bitbucket.org/\">https://bitbucket.org/</a></li><li>Google Docs for documentation: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://gsuite.google.com/index.html\">https://gsuite.google.com/index.html</a></li><li>Canva for graphic design: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.canva.com/\">https://www.canva.com/</a></li></ul></li><li id=\"source-ia\"><strong>Generative AI:</strong><ul><li>Musical CreAItions: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/@SkeptRaiser\">https://www.youtube.com/@SkeptRaiser</a></li></ul></li></ol>"
 	}
 }
