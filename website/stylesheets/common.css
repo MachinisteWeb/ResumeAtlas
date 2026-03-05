@@ -129,6 +129,9 @@ section {
   padding: 2px 12px;
   margin: 2px;
 }
+.skills .jellybean a {
+	font-weight: 300;
+}
 .essential {
   width: 30%;
   float: right;
